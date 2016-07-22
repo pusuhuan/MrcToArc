@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AppDelegate updateProjectFile]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "begin">
+            </PersistentString>
+            <PersistentString
+               value = "end">
+            </PersistentString>
+            <PersistentString
+               value = "_arcFileNameArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate findArc]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "x">
+            </PersistentString>
+            <PersistentString
+               value = "mArray">
+            </PersistentString>
+            <PersistentString
+               value = "begin">
+            </PersistentString>
+            <PersistentString
+               value = "y">
+            </PersistentString>
+            <PersistentString
+               value = "repeatArray">
+            </PersistentString>
+            <PersistentString
+               value = "z">
+            </PersistentString>
+            <PersistentString
+               value = "n">
+            </PersistentString>
+            <PersistentString
+               value = "error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate traversePath:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "path">
+            </PersistentString>
+            <PersistentString
+               value = "fileString">
+            </PersistentString>
+            <PersistentString
+               value = "_arcFileNameArray">
+            </PersistentString>
+            <PersistentString
+               value = "inArcFlag">
+            </PersistentString>
+            <PersistentString
+               value = "_mrcFileNameArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

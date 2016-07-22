@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440142531D4070240031F25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425DEDD1D3F767C00DAD81B /* main.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		440142541D4070510031F25E /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 4425DED91D3F767C00DAD81B /* AppDelegate.h */; };
+		4425DEDB1D3F767C00DAD81B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425DEDA1D3F767C00DAD81B /* AppDelegate.m */; };
+		4425DEE01D3F767C00DAD81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4425DEDF1D3F767C00DAD81B /* Assets.xcassets */; };
+		4425DEE31D3F767C00DAD81B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4425DEE11D3F767C00DAD81B /* MainMenu.xib */; };
+		4425DEEE1D3F767C00DAD81B /* MrcToArcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425DEED1D3F767C00DAD81B /* MrcToArcTests.m */; };
+		4425DEF91D3F767C00DAD81B /* MrcToArcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425DEF81D3F767C00DAD81B /* MrcToArcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4425DEEA1D3F767C00DAD81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4425DECE1D3F767C00DAD81B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4425DED51D3F767C00DAD81B;
+			remoteInfo = MrcToArc;
+		};
+		4425DEF51D3F767C00DAD81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4425DECE1D3F767C00DAD81B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4425DED51D3F767C00DAD81B;
+			remoteInfo = MrcToArc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4425DED61D3F767C00DAD81B /* MrcToArc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrcToArc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4425DED91D3F767C00DAD81B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4425DEDA1D3F767C00DAD81B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4425DEDD1D3F767C00DAD81B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4425DEDF1D3F767C00DAD81B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4425DEE21D3F767C00DAD81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4425DEE41D3F767C00DAD81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4425DEE91D3F767C00DAD81B /* MrcToArcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrcToArcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4425DEED1D3F767C00DAD81B /* MrcToArcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrcToArcTests.m; sourceTree = "<group>"; };
+		4425DEEF1D3F767C00DAD81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4425DEF41D3F767C00DAD81B /* MrcToArcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrcToArcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4425DEF81D3F767C00DAD81B /* MrcToArcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrcToArcUITests.m; sourceTree = "<group>"; };
+		4425DEFA1D3F767C00DAD81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4425DED31D3F767C00DAD81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4425DEE61D3F767C00DAD81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4425DEF11D3F767C00DAD81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4425DECD1D3F767C00DAD81B = {
+			isa = PBXGroup;
+			children = (
+				4425DED81D3F767C00DAD81B /* MrcToArc */,
+				4425DEEC1D3F767C00DAD81B /* MrcToArcTests */,
+				4425DEF71D3F767C00DAD81B /* MrcToArcUITests */,
+				4425DED71D3F767C00DAD81B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4425DED71D3F767C00DAD81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4425DED61D3F767C00DAD81B /* MrcToArc.app */,
+				4425DEE91D3F767C00DAD81B /* MrcToArcTests.xctest */,
+				4425DEF41D3F767C00DAD81B /* MrcToArcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4425DED81D3F767C00DAD81B /* MrcToArc */ = {
+			isa = PBXGroup;
+			children = (
+				4425DED91D3F767C00DAD81B /* AppDelegate.h */,
+				4425DEDA1D3F767C00DAD81B /* AppDelegate.m */,
+				4425DEDF1D3F767C00DAD81B /* Assets.xcassets */,
+				4425DEE11D3F767C00DAD81B /* MainMenu.xib */,
+				4425DEE41D3F767C00DAD81B /* Info.plist */,
+				4425DEDC1D3F767C00DAD81B /* Supporting Files */,
+			);
+			path = MrcToArc;
+			sourceTree = "<group>";
+		};
+		4425DEDC1D3F767C00DAD81B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4425DEDD1D3F767C00DAD81B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4425DEEC1D3F767C00DAD81B /* MrcToArcTests */ = {
+			isa = PBXGroup;
+			children = (
+				4425DEED1D3F767C00DAD81B /* MrcToArcTests.m */,
+				4425DEEF1D3F767C00DAD81B /* Info.plist */,
+			);
+			path = MrcToArcTests;
+			sourceTree = "<group>";
+		};
+		4425DEF71D3F767C00DAD81B /* MrcToArcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4425DEF81D3F767C00DAD81B /* MrcToArcUITests.m */,
+				4425DEFA1D3F767C00DAD81B /* Info.plist */,
+			);
+			path = MrcToArcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4425DED51D3F767C00DAD81B /* MrcToArc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4425DEFD1D3F767C00DAD81B /* Build configuration list for PBXNativeTarget "MrcToArc" */;
+			buildPhases = (
+				4425DED21D3F767C00DAD81B /* Sources */,
+				4425DED31D3F767C00DAD81B /* Frameworks */,
+				4425DED41D3F767C00DAD81B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MrcToArc;
+			productName = MrcToArc;
+			productReference = 4425DED61D3F767C00DAD81B /* MrcToArc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4425DEE81D3F767C00DAD81B /* MrcToArcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4425DF001D3F767C00DAD81B /* Build configuration list for PBXNativeTarget "MrcToArcTests" */;
+			buildPhases = (
+				4425DEE51D3F767C00DAD81B /* Sources */,
+				4425DEE61D3F767C00DAD81B /* Frameworks */,
+				4425DEE71D3F767C00DAD81B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4425DEEB1D3F767C00DAD81B /* PBXTargetDependency */,
+			);
+			name = MrcToArcTests;
+			productName = MrcToArcTests;
+			productReference = 4425DEE91D3F767C00DAD81B /* MrcToArcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4425DEF31D3F767C00DAD81B /* MrcToArcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4425DF031D3F767C00DAD81B /* Build configuration list for PBXNativeTarget "MrcToArcUITests" */;
+			buildPhases = (
+				4425DEF01D3F767C00DAD81B /* Sources */,
+				4425DEF11D3F767C00DAD81B /* Frameworks */,
+				4425DEF21D3F767C00DAD81B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4425DEF61D3F767C00DAD81B /* PBXTargetDependency */,
+			);
+			name = MrcToArcUITests;
+			productName = MrcToArcUITests;
+			productReference = 4425DEF41D3F767C00DAD81B /* MrcToArcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4425DECE1D3F767C00DAD81B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iceman;
+				TargetAttributes = {
+					4425DED51D3F767C00DAD81B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4425DEE81D3F767C00DAD81B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4425DED51D3F767C00DAD81B;
+					};
+					4425DEF31D3F767C00DAD81B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4425DED51D3F767C00DAD81B;
+					};
+				};
+			};
+			buildConfigurationList = 4425DED11D3F767C00DAD81B /* Build configuration list for PBXProject "MrcToArc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4425DECD1D3F767C00DAD81B;
+			productRefGroup = 4425DED71D3F767C00DAD81B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4425DED51D3F767C00DAD81B /* MrcToArc */,
+				4425DEE81D3F767C00DAD81B /* MrcToArcTests */,
+				4425DEF31D3F767C00DAD81B /* MrcToArcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4425DED41D3F767C00DAD81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4425DEE01D3F767C00DAD81B /* Assets.xcassets in Resources */,
+				4425DEE31D3F767C00DAD81B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4425DEE71D3F767C00DAD81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4425DEF21D3F767C00DAD81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4425DED21D3F767C00DAD81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440142541D4070510031F25E /* AppDelegate.h in Sources */,
+				440142531D4070240031F25E /* main.m in Sources */,
+				4425DEDB1D3F767C00DAD81B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4425DEE51D3F767C00DAD81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4425DEEE1D3F767C00DAD81B /* MrcToArcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4425DEF01D3F767C00DAD81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4425DEF91D3F767C00DAD81B /* MrcToArcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4425DEEB1D3F767C00DAD81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4425DED51D3F767C00DAD81B /* MrcToArc */;
+			targetProxy = 4425DEEA1D3F767C00DAD81B /* PBXContainerItemProxy */;
+		};
+		4425DEF61D3F767C00DAD81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4425DED51D3F767C00DAD81B /* MrcToArc */;
+			targetProxy = 4425DEF51D3F767C00DAD81B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4425DEE11D3F767C00DAD81B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4425DEE21D3F767C00DAD81B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4425DEFB1D3F767C00DAD81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4425DEFC1D3F767C00DAD81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4425DEFE1D3F767C00DAD81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MrcToArc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent..MrcToArc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4425DEFF1D3F767C00DAD81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MrcToArc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent..MrcToArc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4425DF011D3F767C00DAD81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MrcToArcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent..MrcToArcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MrcToArc.app/Contents/MacOS/MrcToArc";
+			};
+			name = Debug;
+		};
+		4425DF021D3F767C00DAD81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MrcToArcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent..MrcToArcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MrcToArc.app/Contents/MacOS/MrcToArc";
+			};
+			name = Release;
+		};
+		4425DF041D3F767C00DAD81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MrcToArcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent..MrcToArcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MrcToArc;
+			};
+			name = Debug;
+		};
+		4425DF051D3F767C00DAD81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MrcToArcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent..MrcToArcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MrcToArc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4425DED11D3F767C00DAD81B /* Build configuration list for PBXProject "MrcToArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4425DEFB1D3F767C00DAD81B /* Debug */,
+				4425DEFC1D3F767C00DAD81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4425DEFD1D3F767C00DAD81B /* Build configuration list for PBXNativeTarget "MrcToArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4425DEFE1D3F767C00DAD81B /* Debug */,
+				4425DEFF1D3F767C00DAD81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4425DF001D3F767C00DAD81B /* Build configuration list for PBXNativeTarget "MrcToArcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4425DF011D3F767C00DAD81B /* Debug */,
+				4425DF021D3F767C00DAD81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4425DF031D3F767C00DAD81B /* Build configuration list for PBXNativeTarget "MrcToArcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4425DF041D3F767C00DAD81B /* Debug */,
+				4425DF051D3F767C00DAD81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4425DECE1D3F767C00DAD81B /* Project object */;
+}
